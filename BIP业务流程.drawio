@@ -46,11 +46,28 @@
         <mxCell id="wXsLmLI9UNC168IcgmLq-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="BIP" vertex="1">
           <mxGeometry height="300" width="100" x="460" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.5" y="292" as="sourcePoint" />
+            <mxPoint x="129.5" y="292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-14" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_SENDTPDUDATA_REQ" vertex="1">
+          <mxGeometry relative="1" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="STK" vertex="1">
           <mxGeometry height="300" width="100" x="280" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-11" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="网络触发" vertex="1">
           <mxGeometry height="60" width="670" x="50" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-12" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="用户触发" vertex="1">
+          <mxGeometry height="50" width="670" x="50" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="at命令^CSEN/CGLA触发" vertex="1">
+          <mxGeometry height="10" width="160" x="140" y="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
