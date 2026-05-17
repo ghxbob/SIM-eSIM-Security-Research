@@ -26,6 +26,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.5" y="338" as="sourcePoint" />
+            <mxPoint x="329.5" y="338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-17" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKDATA_IND&lt;div&gt;(Open Channel)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.015" y="4" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="USIMM" vertex="1">
           <mxGeometry height="300" width="100" x="80" y="80" as="geometry" />
         </mxCell>
