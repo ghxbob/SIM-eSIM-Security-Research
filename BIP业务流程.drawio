@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="lfIqaFpD3GY9viR4rlSh">
+    <mxGraphModel dx="964" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wXsLmLI9UNC168IcgmLq-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.5" y="159" as="sourcePoint" />
+            <mxPoint x="329.5" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wXsLmLI9UNC168IcgmLq-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="USIMM" vertex="1">
+          <mxGeometry height="300" width="100" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wXsLmLI9UNC168IcgmLq-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Network&lt;div&gt;Server&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="100" x="660" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wXsLmLI9UNC168IcgmLq-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="BIP" vertex="1">
+          <mxGeometry height="300" width="100" x="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wXsLmLI9UNC168IcgmLq-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="STK" vertex="1">
+          <mxGeometry height="300" width="100" x="280" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
