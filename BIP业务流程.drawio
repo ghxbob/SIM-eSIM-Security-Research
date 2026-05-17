@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="USIMM" vertex="1">
-          <mxGeometry height="580" width="100" x="80" y="80" as="geometry" />
+          <mxGeometry height="900" width="100" x="80" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
           <mxGeometry relative="1" as="geometry">
@@ -52,21 +52,44 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Network&lt;div&gt;Server&lt;/div&gt;" vertex="1">
-          <mxGeometry height="590" width="100" x="660" y="80" as="geometry" />
+          <mxGeometry height="900" width="100" x="660" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="509.5" y="390" as="sourcePoint" />
-            <mxPoint x="709.5" y="390" as="targetPoint" />
+            <mxPoint x="509.5" y="420" as="sourcePoint" />
+            <mxPoint x="709.5" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C_pdyp8wRxysZ-qWJBe0-21" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="建立Socket连接" vertex="1">
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-21" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];shadow=0;" value="建立Socket连接" vertex="1">
           <mxGeometry relative="1" x="0.045" y="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="440" as="sourcePoint" />
+            <mxPoint x="330" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-29" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BIP_STK_MSG_CMD_CNF&lt;div&gt;(Open Channel Succ)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0111" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="BIP" vertex="1">
-          <mxGeometry height="590" width="100" x="460" y="80" as="geometry" />
+          <mxGeometry height="900" width="100" x="460" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-78" edge="1" parent="wXsLmLI9UNC168IcgmLq-4" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" target="C_pdyp8wRxysZ-qWJBe0-77" value="断开数据业务">
+          <mxGeometry relative="1" x="0.0118" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="79" y="840" />
+            </Array>
+            <mxPoint x="49" y="810" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-77" parent="wXsLmLI9UNC168IcgmLq-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="44" y="830" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
           <mxGeometry relative="1" as="geometry">
@@ -90,8 +113,34 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="460" />
+              <mxPoint x="180" y="460" />
+            </Array>
+            <mxPoint x="329.5" y="460" as="sourcePoint" />
+            <mxPoint x="129.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-32" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKTERMINAL_RSP_REQ" vertex="1">
+          <mxGeometry relative="1" x="0.005" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-37" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="550" as="sourcePoint" />
+            <mxPoint x="510" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-38" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="STK_BIP_MSG_CMD_REQ&lt;div&gt;(Send Data)&lt;/div&gt;&lt;div&gt;(卡向网络发送的请求数据)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0167" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="STK" vertex="1">
-          <mxGeometry height="590" width="100" x="280" y="80" as="geometry" />
+          <mxGeometry height="900" width="100" x="280" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-11" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="网络触发" vertex="1">
           <mxGeometry height="60" width="670" x="50" y="190" as="geometry" />
@@ -103,13 +152,221 @@
           <mxGeometry height="10" width="160" x="140" y="270" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
-          <mxGeometry height="590" width="10" x="610" y="80" as="geometry" />
+          <mxGeometry height="900" width="10" x="610" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UE侧" vertex="1">
           <mxGeometry height="30" width="60" x="530" y="50" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="网络侧" vertex="1">
           <mxGeometry height="30" width="60" x="630" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;elbow=vertical;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="541" y="378" />
+              <mxPoint x="541" y="398" />
+            </Array>
+            <mxPoint x="510" y="378" as="sourcePoint" />
+            <mxPoint x="510" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="向DSM发起数据业务拨号流程，&lt;div&gt;拨号成功后，调用VISP接口&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="180" x="510" y="374" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-33" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=140;height=15;" value="多包数据时，重复该流程" vertex="1">
+          <mxGeometry height="320" width="670" x="60" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-34" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.465;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.5" y="530.31" as="sourcePoint" />
+            <mxPoint x="326.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-36" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKDATA_IND&lt;div&gt;(Send data)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0066" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-40" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="570" as="sourcePoint" />
+            <mxPoint x="710" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-41" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];shadow=0;" value="Socket上行数据" vertex="1">
+          <mxGeometry relative="1" x="0.045" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="640" as="sourcePoint" />
+            <mxPoint x="710" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-45" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];shadow=0;" value="Socket下行数据" vertex="1">
+          <mxGeometry relative="1" x="0.045" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-49" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="600" as="sourcePoint" />
+            <mxPoint x="330" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-50" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BIP_STK_MSG_CMD_CNF&lt;div&gt;(Send Data Succ)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0111" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-51" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180.5" y="620" />
+              <mxPoint x="180.5" y="620" />
+            </Array>
+            <mxPoint x="330" y="620" as="sourcePoint" />
+            <mxPoint x="130" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-52" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKTERMINAL_RSP_REQ" vertex="1">
+          <mxGeometry relative="1" x="0.005" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-53" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="660" as="sourcePoint" />
+            <mxPoint x="330" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-54" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BIP_STK_DATA_Available_EVENT" vertex="1">
+          <mxGeometry relative="1" x="0.0111" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-55" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180.5" y="680" />
+              <mxPoint x="180.5" y="680" />
+            </Array>
+            <mxPoint x="330" y="680" as="sourcePoint" />
+            <mxPoint x="130" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-56" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKENVELOPE_REQ&lt;div&gt;(Data Available Event)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.005" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-57" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0.465;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="720.31" as="sourcePoint" />
+            <mxPoint x="327" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-58" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-57" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKDATA_IND&lt;div&gt;(Recieve data)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0066" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-59" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="730" as="sourcePoint" />
+            <mxPoint x="510" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-60" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-59" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="STK_BIP_MSG_CMD_REQ&lt;div&gt;(Recieve Data)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0167" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-61" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="770" as="sourcePoint" />
+            <mxPoint x="330" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-62" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BIP_STK_MSG_CMD_CNF&lt;div&gt;(Recieve Data RSP)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0111" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-63" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180.5" y="790" />
+              <mxPoint x="180.5" y="790" />
+            </Array>
+            <mxPoint x="330" y="790" as="sourcePoint" />
+            <mxPoint x="130" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-64" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKTERMINAL_RSP_REQ" vertex="1">
+          <mxGeometry relative="1" x="0.005" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-65" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="830" as="sourcePoint" />
+            <mxPoint x="330" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-66" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKDATA_IND&lt;div&gt;(Close Channel)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.015" y="4" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-67" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="870" as="sourcePoint" />
+            <mxPoint x="710" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-68" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];shadow=0;" value="断开Socket连接" vertex="1">
+          <mxGeometry relative="1" x="0.045" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-69" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510.5" y="932" as="sourcePoint" />
+            <mxPoint x="330.5" y="932" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-70" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-69" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BIP_STK_MSG_CMD_CNF&lt;div&gt;(Close Channel Succ)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0111" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-71" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="852" as="sourcePoint" />
+            <mxPoint x="510" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-72" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="STK BIP MSG CMD REQ&lt;div&gt;(Close Channel)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0167" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-73" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180.5" y="952" />
+              <mxPoint x="180.5" y="952" />
+            </Array>
+            <mxPoint x="330" y="952" as="sourcePoint" />
+            <mxPoint x="130" y="952" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-74" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="USIMM_STKTERMINAL_RSP_REQ" vertex="1">
+          <mxGeometry relative="1" x="0.005" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
