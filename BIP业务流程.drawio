@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="USIMM" vertex="1">
-          <mxGeometry height="300" width="100" x="80" y="80" as="geometry" />
+          <mxGeometry height="580" width="100" x="80" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
           <mxGeometry relative="1" as="geometry">
@@ -52,10 +52,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="Network&lt;div&gt;Server&lt;/div&gt;" vertex="1">
-          <mxGeometry height="300" width="100" x="660" y="80" as="geometry" />
+          <mxGeometry height="590" width="100" x="660" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509.5" y="390" as="sourcePoint" />
+            <mxPoint x="709.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-21" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="建立Socket连接" vertex="1">
+          <mxGeometry relative="1" x="0.045" y="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="BIP" vertex="1">
-          <mxGeometry height="300" width="100" x="460" y="80" as="geometry" />
+          <mxGeometry height="590" width="100" x="460" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
           <mxGeometry relative="1" as="geometry">
@@ -68,8 +79,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.5" y="360" as="sourcePoint" />
+            <mxPoint x="509.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-19" connectable="0" parent="C_pdyp8wRxysZ-qWJBe0-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="STK BIP MSG CMD REQ&lt;div&gt;(Open Channel)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0167" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wXsLmLI9UNC168IcgmLq-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="STK" vertex="1">
-          <mxGeometry height="300" width="100" x="280" y="80" as="geometry" />
+          <mxGeometry height="590" width="100" x="280" y="80" as="geometry" />
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-11" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="网络触发" vertex="1">
           <mxGeometry height="60" width="670" x="50" y="190" as="geometry" />
@@ -79,6 +101,15 @@
         </mxCell>
         <mxCell id="C_pdyp8wRxysZ-qWJBe0-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="at命令^CSEN/CGLA触发" vertex="1">
           <mxGeometry height="10" width="160" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="590" width="10" x="610" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UE侧" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="C_pdyp8wRxysZ-qWJBe0-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="网络侧" vertex="1">
+          <mxGeometry height="30" width="60" x="630" y="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
